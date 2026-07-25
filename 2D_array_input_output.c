@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main ()
+int main()
 {
     /*
 
@@ -29,10 +29,8 @@ int main ()
         row × column
         4 × 3 = 12 elements
     */
-    
-    
-    int a[4][3];
 
+    int a[4][3];
 
     /*
         Input values into 2D array.
@@ -59,7 +57,7 @@ int main ()
     */
     for (int i = 0; i < 4; i++)
     {
-        for(int j = 0; j < 3; j++)
+        for (int j = 0; j < 3; j++)
         {
             /*
                 &a[i][j] means:
@@ -70,7 +68,6 @@ int main ()
             scanf("%d", &a[i][j]);
         }
     }
-
 
     /*
         Output values from 2D array.
@@ -83,7 +80,7 @@ int main ()
     */
     for (int i = 0; i < 4; i++)
     {
-        for(int j = 0; j < 3; j++)
+        for (int j = 0; j < 3; j++)
         {
             /*
                 a[i][j] accesses:
@@ -112,6 +109,5 @@ int main ()
         printf("\n");
     }
 
-
-   return 0; 
+    return 0;
 }
