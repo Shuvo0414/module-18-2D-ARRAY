@@ -1,1 +1,1 @@
-It's a Pimary Diagonal
+It's a Secondary Matrix
