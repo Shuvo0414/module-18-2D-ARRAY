@@ -1,1 +1,1 @@
-It's a Scalar Primary Diagonal Matrix
+It's a Secondary Diagonal Scalar Matrix
